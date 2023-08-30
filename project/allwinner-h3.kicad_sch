@@ -1,0 +1,111 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 171b08bf-05fa-41e4-b268-1401a4deb507)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 25.4 25.4) (size 50.8 38.1)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 097122bd-2b55-4be6-b8a3-94b6847fa654)
+    (property "Sheet name" "DDR3 16x1" (id 0) (at 29.21 31.75 0)
+      (effects (font (size 3.81 3.81)) (justify left))
+    )
+    (property "Sheet file" "DDR3_16x1.kicad_sch" (id 1) (at 25.4 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/ff61b2d6-3fe6-4b0e-9f42-2768eddad66e"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/7fc7b904-6aab-4a93-b0a8-d13418306d49"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/9d0b2dd0-459c-480a-9cfb-e115ff525f79"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/1b83352a-adae-41ea-a84b-727169cc372f"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/391c4281-0993-45b4-ad7e-f8eaeebfa727"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/cb032ce1-8b8b-47b3-891b-3faa80621f1d"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/9fceb68e-13da-4efd-8ce4-78f90ae18b44"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/8af3b2c6-23f1-4d07-ad6d-9d2eb5fea829"
+      (reference "C1") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/a1388fa1-d8d7-4692-b989-cf76e63c914a"
+      (reference "C2") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/47818a5e-af05-4339-bfb3-ab706b85e5ac"
+      (reference "C3") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/411e7f29-d834-4630-9dea-e9472cd41991"
+      (reference "C4") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/060abb95-54d7-491d-82dd-03c9828113ec"
+      (reference "C5") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/9ea248c5-395c-41f6-a428-3e9b9cb4d039"
+      (reference "C6") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/12cb9e9f-62a6-41fb-8d27-38478403eba0"
+      (reference "C7") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/97778189-028b-43e2-a76a-2291df0f9551"
+      (reference "C8") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/ced0afe0-7fd9-44ba-a4b9-619197c80b4a"
+      (reference "C9") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/8afa5009-098f-4e21-a06f-54c5cf3e9811"
+      (reference "C10") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/e0d05bdf-539e-426a-a5a6-1f631f469669"
+      (reference "C11") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/74d0e835-818f-4418-8d3a-9166e1fde27d"
+      (reference "C12") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/c3ee5191-0093-46f9-9eac-0731d390f1e5"
+      (reference "DU1") (unit 1) (value "DDR3-FBGA96") (footprint "Package_BGA:Micron_FBGA-96_8x14mm_Layout9x16_P0.8mm")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/7dc907fd-ace0-4333-8635-fbb7aa69b53f"
+      (reference "R1") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/e4ee3db1-fc5b-4888-96f1-aa64fb6ef4d0"
+      (reference "R2") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/07afda0c-9604-4641-847f-6d968139bf3c"
+      (reference "R3") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/3a107a9d-993e-4268-b54c-28b45dd85e52"
+      (reference "R4") (unit 1) (value "240") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/9022c947-010b-4142-a4e5-62f247676856"
+      (reference "R5") (unit 1) (value "240") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/e5db464c-c26f-47cd-8f17-0217a1c56a5b"
+      (reference "R6") (unit 1) (value "240") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/097122bd-2b55-4be6-b8a3-94b6847fa654/16f35c03-3c66-47aa-987f-941ac8522158"
+      (reference "U1") (unit 1) (value "Allwinner-H3") (footprint "Allwinner:Allwinner-H3")
+    )
+  )
+)

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Allwinner")(type "KiCad")(uri "${KIPRJMOD}/Lib/Allwinner.pretty")(options "")(descr ""))
+)
